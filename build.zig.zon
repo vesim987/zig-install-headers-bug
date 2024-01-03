@@ -1,0 +1,11 @@
+.{
+    .name = "install-headers",
+    .version = "0.0.0",
+    .dependencies = .{
+        .foo = .{
+            .path = "deps/foo",
+        },
+    },
+
+    .paths = .{""},
+}
